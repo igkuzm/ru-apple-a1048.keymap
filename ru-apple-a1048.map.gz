@@ -576,8 +576,8 @@ altgr										keycode 114 = z											#sound - (z in vlc)
 												keycode 115 = a											#sound + (a in vlc)
 altgr 									keycode 115 = a											#sound + (a in vlc)
 
-												keycode 161 = F26									  #eject cdrom
-altgr 									keycode 161 = F26		 							  #eject cdrom
+												keycode 161 = e									    #eject cdrom (e in vlc)
+altgr 									keycode 161 = e		 							    #eject cdrom (e in vlc)
                         
 												keycode  183 = F13
         shift           keycode  183 = F13
@@ -656,4 +656,4 @@ string	F22 = ""
 string	F23 = ""
 string	F24 = ""
 string	F25 = ""
-string	F26 = "eject\n"
+string	F26 = ""
