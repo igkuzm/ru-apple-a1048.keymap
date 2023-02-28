@@ -569,6 +569,62 @@ altgr   control alt     keycode 111 = Boot
                         keycode 126 = Alt
                         keycode 127 =
 
+												keycode 113 = m											#mute (m in vlc)
+altgr										keycode 113 = m											#mute (m in vlc)
+												keycode 114 = z											#sound - (z in vlc)
+altgr										keycode 114 = z											#sound - (z in vlc)
+												keycode 115 = a											#sound + (a in vlc)
+altgr 									keycode 115 = a											#sound + (a in vlc)
+
+												keycode 161 = F26									  #eject cdrom
+altgr 									keycode 161 = F26		 							  #eject cdrom
+                        
+												keycode  183 = F13
+        shift           keycode  183 = F13
+        alt             keycode  183 = Console_13
+        control         keycode  183 = F13
+        control alt     keycode  183 = Console_13
+altgr                   keycode  183 = F13
+altgr   shift           keycode  183 = F13
+altgr   alt             keycode  182 = Console_13
+altgr   control         keycode  183 = F13
+altgr   control alt     keycode  183 = Console_13
+ 
+                        keycode  184 = F14
+        shift           keycode  184 = F14
+        alt             keycode  184 = Console_14
+        control         keycode  184 = F14
+        control alt     keycode  184 = Console_14
+altgr                   keycode  184 = F14
+altgr   shift           keycode  184 = F14
+altgr   alt             keycode  184 = Console_14
+altgr   control         keycode  184 = F14
+altgr   control alt     keycode  184 = Console_14
+ 
+                        keycode  185 = F15
+        shift           keycode  185 = F15
+        alt             keycode  185 = Console_15
+        control         keycode  185 = F15
+        control alt     keycode  185 = Console_15
+altgr                   keycode  185 = F15
+altgr   shift           keycode  185 = F15
+altgr   alt             keycode  185 = Console_15
+altgr   control         keycode  185 = F15
+altgr   control alt     keycode  185 = Console_15
+ 
+                        keycode  186 = F16
+        shift           keycode  186 = F16
+        alt             keycode  186 = Console_16
+        control         keycode  186 = F16
+        control alt     keycode  186 = Console_16
+altgr                   keycode  186 = F16
+altgr   shift           keycode  186 = F16
+altgr   alt             keycode  186 = Console_16
+altgr   control         keycode  186 = F16
+altgr   control alt     keycode  186 = Console_16
+ 
+
+
 string	F1 = "\033[[A"
 string	F2 = "\033[[B"
 string	F3 = "\033[[C"
@@ -600,4 +656,4 @@ string	F22 = ""
 string	F23 = ""
 string	F24 = ""
 string	F25 = ""
-string	F26 = ""
+string	F26 = "eject\n"
