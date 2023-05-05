@@ -252,13 +252,10 @@ altgr                   keycode  40 = U+044D        # CYRILLIC SMALL LETTER E
 altgr   shift           keycode  40 = U+042D        # CYRILLIC CAPITAL LETTER E
 altgr   alt             keycode  40 = Meta_apostrophe
 altgr   control         keycode  40 = Control_g
-												keycode  41 = grave
-        shift           keycode  41 = asciitilde
-        alt             keycode  41 = Meta_grave
-        control         keycode  41 = grave
-altgr                   keycode  41 = asciitilde
-altgr   shift           keycode  41 = Meta_grave
-altgr   alt             keycode  41 = Meta_grave
+                        keycode  41 = U+00B1        # plus/minus
+        shift           keycode  41 = U+00A7        # Paragraph
+altgr                   keycode  41 = U+00B1        # plus/minus
+altgr   shift           keycode  41 = U+00A7        # Paragraph
                         keycode  42 = Shift
         control         keycode  42 = AltGr_Lock
 altgr   control         keycode  42 = AltGr_Lock
@@ -487,10 +484,13 @@ altgr   control         keycode  83 = Boot
 altgr   control alt     keycode  83 = Boot
                         keycode  84 = Last_Console
                         keycode  85 =
-                        keycode  86 = U+00B1        # plus/minus
-        shift           keycode  86 = U+00A7        # Paragraph
-altgr                   keycode  86 = U+00B1        # plus/minus
-altgr   shift           keycode  86 = U+00A7        # Paragraph
+												keycode  86 = grave
+        shift           keycode  86 = asciitilde
+        alt             keycode  86 = Meta_grave
+        control         keycode  86 = grave
+altgr                   keycode  86 = asciitilde
+altgr   shift           keycode  86 = Meta_grave
+altgr   alt             keycode  86 = Meta_grave
                         keycode  87 = F11
         shift           keycode  87 = F11
         alt             keycode  87 = Console_11
@@ -582,6 +582,15 @@ altgr 									keycode 115 = a											#sound + (a in vlc)
 
 												keycode 161 = e									    #eject cdrom (e in vlc)
 altgr 									keycode 161 = e		 							    #eject cdrom (e in vlc)
+												
+												keycode 163 = n									    #next (n in vlc)
+altgr 									keycode 163 = n		 							    #next (n in vlc)
+												
+												keycode 164 = space									#play/pause (space in vlc)
+altgr 									keycode 164 = space		 							#play/pause (space in vlc)
+												
+												keycode 165 = p									    #prev (p in vlc)
+altgr 									keycode 165 = p		 							    #prev (p in vlc)
                         
 												keycode  183 = F13
         shift           keycode  183 = F13
