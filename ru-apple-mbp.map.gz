@@ -1,4 +1,5 @@
-# ru-uni_alt_space.kmap is a Russian UTF-8 keymap for a Apple A1314 keyboard.
+# ru-uni_alt_space.kmap is a Russian UTF-8 keymap for a
+# Apple Macbook pro keyboard.
 #
 # Both Alt+Space (Cmd-Space) is used to change rus/lat
 #
@@ -556,22 +557,9 @@ altgr   shift           keycode 109 = Scroll_Forward
         control alt     keycode 111 = Boot
 altgr   control         keycode 111 = Boot
 altgr   control alt     keycode 111 = Boot
-                        keycode 112 =
-                        keycode 113 =
-                        keycode 114 =
-                        keycode 115 =
-                        keycode 116 =
-                        keycode 117 =
-                        keycode 118 =
-                        keycode 119 =
-                        keycode 120 =
-                        keycode 121 =
-                        keycode 122 =
-                        keycode 123 =
-                        keycode 124 =
+                        
                         keycode 125 = Alt
                         keycode 126 = Alt
-                        keycode 127 =
 
 												keycode 113 = F22                   #mute toggle
 altgr										keycode 113 = F22                   
@@ -580,12 +568,6 @@ altgr										keycode 114 = F23
 												keycode 115 = F24										#sound + 
 altgr 									keycode 115 = F24										 
 
-												keycode 120 = F15                   #Expose (Mission control) 
-altgr 									keycode 120 = F15                   
-
-												keycode 161 = F25									  #eject cdrom
-altgr 									keycode 161 = F25		 							  
-												
 												keycode 163 = F21								    #next
 altgr 									keycode 163 = F21		 					      
 												
@@ -594,17 +576,24 @@ altgr 									keycode 164 = F20
 												
 												keycode 165 = F19									  #prev
 altgr 									keycode 165 = F19		 							  
-                       	
-												keycode 204 = F16                   #Dashboard 
-altgr 									keycode 204 = F16                   
-
+                       
+                        keycode  217 = F16                  #search
+altgr                   keycode  217 = F16
+ 
                         keycode  224 = F13                  #screen brightness -
 altgr                   keycode  224 = F13
 
                         keycode  225 = F14                  #screen brightness +
 altgr                   keycode  225 = F14
 
-
+                        keycode  229 = F17                  #keyboard light -
+altgr                   keycode  229 = F17
+                        
+												keycode  230 = F18                  #keyboard light +
+altgr                   keycode  230 = F18
+                        
+												keycode  248 = F15                  #disable microphone
+altgr                   keycode  248 = F15
 
 string	F1 = "\033[[A"
 string	F2 = "\033[[B"
